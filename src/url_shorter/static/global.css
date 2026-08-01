@@ -1,0 +1,60 @@
+main {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+caption {
+  padding: 4px;
+  text-align: right;
+}
+
+span.block {
+  background-color: #F3F4F6;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+span.code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button.action {
+  border: 0;
+  border-radius: 12px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+button.create {
+  background-color: green;
+  color: white;
+}
+
+button.create:hover {
+  background-color: darkgreen;
+}
+
+button.delete {
+  background-color: red;
+  color: white;
+}
+
+button.delete:hover {
+  background-color: darkred;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 16px;
+}
+
+td.center {
+  text-align: center;
+}

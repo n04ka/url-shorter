@@ -10,13 +10,13 @@ dependencies = [
 ]
 
 [project.scripts]
-url-shorter = "url_shorter:main"
+dev = "url_shorter.main:run"
 
-[build-system]
-requires = ["uv_build>=0.12.1,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = true
 
 [dependency-groups]
 dev = [
     "ruff>=0.16.1",
 ]
+
